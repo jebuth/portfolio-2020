@@ -7,10 +7,11 @@ function CountUpText() {
         <div className='container'>
             <CountUp 
                 className='count_value'
-                end={100}
+                end={254040}
                 duration={3.5}
+                separator={','}
                 />
-            <h2 className='count_text'>HOURS CODING</h2>
+            <h2 className='count_text'>&nbsp;HOURS LEARNING</h2>
         </div>
     )
 }

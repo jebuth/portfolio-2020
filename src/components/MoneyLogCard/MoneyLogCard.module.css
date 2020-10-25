@@ -93,25 +93,25 @@
 }
 
 .react_native_icon{
-    background: url('/react_native_icon.png');
+    background: url('../../assets/react_native_icon.png');
     height: 49px;
     width: 49px;   
 }
 
 .drive_icon{
-    background: url('/drive_icon.png');
+    background: url('../../assets/drive_icon.png');
     height: 49px;
     width: 49px;   
 }
 
 .node_icon{
-    background: url('/node_icon.png');
+    background: url('../../assets/node_icon.png');
     height: 49px;
     width: 49px;   
 }
 
 .google_icon{
-    background: url('/google_icon.png');
+    background: url('../../assets/google_icon.png');
     height: 49px;
     width: 49px;   
 }

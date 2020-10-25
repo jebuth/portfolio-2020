@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import HeroSection from './HeroSection';
+import HeroSection from './HeroSection/HeroSection';
 import MoneyLogCard from './MoneyLogCard/MoneyLogCard';
 import CovidTrackerCard from './CovidTrackerCard/CovidTrackerCard';
 // import Cards from '../Cards'
