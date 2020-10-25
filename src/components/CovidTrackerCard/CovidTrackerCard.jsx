@@ -1,6 +1,8 @@
 import React from 'react';
 import styles from './CovidTrackerCard.module.css';
-import iphone from '../../assets/iphone.PNG';
+// import iphone from '../../assets/iphone.PNG';
+import covid from '../../assets/covid.PNG';
+import covid_mobile from '../../assets/covid_mobile.PNG';
 
 function CovidTrackerCard() {
     return (
@@ -8,13 +10,13 @@ function CovidTrackerCard() {
             <div className={styles.container}>
                 
                 <div className={styles.title_container}>
-                    <h1 className={styles.title}>MONEYLOG</h1>
+                    <h1 className={styles.title}>COVID-19 TRACKER</h1>
                 </div>
 
                 <div className={styles.detail_container}>
                     <div className={styles.image_container}>
                         <img 
-                            src={iphone}
+                            src={covid_mobile}
                             className={styles.iphone_image}
                         />
                     </div>
@@ -34,5 +36,5 @@ function CovidTrackerCard() {
         </div>
     )
 }
-
+  
 export default CovidTrackerCard
